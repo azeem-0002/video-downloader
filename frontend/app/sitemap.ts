@@ -36,4 +36,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/twitter`,
-      lastMo
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    }
+]
+}
